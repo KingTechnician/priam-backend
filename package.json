@@ -1,22 +1,10 @@
 {
-  "name": "api",
-  "version": "0.8.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "cors": "^2.8.5",
-    "debug": "~2.6.9",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "express-oauth2-jwt-bearer": "^1.3.0",
-    "express-openid-connect": "^2.12.0",
-    "find-config": "^1.0.0",
-    "http-errors": "~1.6.3",
-    "jade": "^0.29.0",
-    "mongodb": "^4.13.0",
-    "morgan": "~1.9.1"
-  }
+    "name": "priam-backend",
+    "version": "0.0.1",
+    "description": "The backend for the Priam PWA Application.",
+    "author": "KingTechnician",
+    "license": "ISC",
+    "dependencies": {
+        "mongodb": "4.13.0"
+    }
 }
